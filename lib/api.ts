@@ -15,7 +15,7 @@ export async function getRandomAdvice(): Promise<Advice> {
       id: data.slip.id,
       advice: data.slip.advice,
     };
-  } catch (error) {
+  } catch{
     return {
       id: 117,
       advice: "And which one of your God's Favour would you deny"
